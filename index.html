@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - HTML</title>
+</head>
+<body>
+  <!--Tags de título-->  
+  <h1>Etec Dra Ruth Cardoso</h1>
+  <h2>Etec Dra Ruth Cardoso</h2>
+  <h3>Etec Dra Ruth Cardoso</h3>
+  <h4>Etec Dra Ruth Cardoso</h4>
+  <h5>Etec Dra Ruth Cardoso</h5>
+  <h6>Etec Dra Ruth Cardoso</h6>
+  <!--Tag de parágrafo-->
+  <p>O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao clicar em Vídeo Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode digitar uma palavra-chave para pesquisar online o vídeo mais adequado ao seu documento.</p>
+  <p>Para dar ao documento uma aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra lateral correspondentes. Clique em Inserir e escolha os elementos desejados nas diferentes galerias.</p>
+  <p>Temas e estilos também ajudam a manter seu documento coordenado. Quando você clica em Design e escolhe um novo tema, as imagens, gráficos e elementos gráficos SmartArt são alterados para corresponder ao novo tema. Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.</p>
+
+  <!--Tag de listas-->
+  <p>Os alunos do 1DS3 são:</p>
+  <!--Lista não ordenada-->
+  <ul>
+      <li>Empenhados</li>
+      <li>Organizados</li>
+      <li>Educados</li>
+      <li>Atenciosos</li>
+     </ul>
+
+     <p>Lista de afazeres:</p>
+  <!--Lista ordenada-->
+  <ol>
+      <li>Realizar tarefa de PW I</li>
+      <li>Pagar conta de luz</li>
+      <li>Levar cachorro para passear</li>
+      <li>Finalizar atividade de PA</li>
+  </ol>
+
+  <p>Lista de bebidas:</p>
+  <!--Lista de descrição-->
+  <dl>
+      <dt>Café</dt>
+      <dd>- Tradicional</dd>
+      <dd>- Extra forte</dd>
+      <dt>Chá</dt>
+      <dd>- Mate</dd>
+      <dd>- Camomila </dd>
+  </dl>
+
+  <!--Tag de imagem-->
+  <p>Inserindo uma imagem</p>
+  <img src="image/natureza.jpg" alt="Foto de paisagem" width="512" height="342">
+
+  <!--Tag de link-->
+  <p>
+  <a href="https://www.uol.com.br/">Site UOL</a>
+  </p>
+
+  <!--Tags de formulário e seus componentes-->
+  <form>
+<fieldset>
+    <legend>Login</legend>
+    <label>Usuário: </label>
+    <input type="text" placeholder="Digite seu usuário"><br> 
+    <input type="password" placeholder="Digite sua senha"><br>
+</fieldset>
+<fieldset>
+<legend>Estado Civil</legend>
+<input type="radio" name="estadocivil" value="Casado" id="casado" checked><label for="casado">Casado</label><br>
+    <input type="radio" name="estadocivil" value="Solteiro" id="solteiro"><label for="solteiro">Solteiro</label><br>
+    <input type="radio" name="estadocivil" value="Divorciado" id="divorciado"><label for="divorciado">Divorciado</label><br>
+</fieldset>
+<fieldset>
+    <legend>Outros</legend>
+    <input type="checkbox" value="Comédia" id="comédia" checked><label for="comédia">Comédia</label><br>
+    <input type="checkbox" value="Ficção" id="ficção"><label for="ficção">Ficção</label><br>
+    <input type="checkbox" value="Romance" id="romance"><label for="romance">Romance</label><br>
+    <input type="number" placeholder="Filhos" max="10" min="0"><br>
+    <input type="color"><br>
+    <input type="date"><br>
+    <input type="range"><br>
+    <textarea rows="20" cols="50"></textarea>
+</fieldset>
+     <input type="button" value="Enviar">
+       <input type="submit" value="Enviar"><br>
+<label>Selecione um Carro:</label>
+       <select name="Carros">
+           <option value=""selected disabled>Selecione seu carro</option>
+           <optgroup label="Carros Populares">
+           <option value="Gol">Gol</option>
+           <option value="Palio">Palio</option>
+        </optgroup>
+       <optgroup label="Carros de Luxo">
+        <option value="Mustang">Mustang</option>
+        <option value="Camaro">Camaro</option>
+       </optgroup>
+ </select><br>
+
+<input list="montadoras" placeholder="Selecione uma montadora">
+<datalist name="Montadoras" id="montadoras">
+    <option value="Chevrolet">
+    <option value="Fiat">
+    <option value="Ford">
+    <option value="Volkswagen">
+</datalist>  
+</form>
+</body>
+</html>
